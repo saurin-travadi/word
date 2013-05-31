@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="11G63" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Result" representedClassName="Result" syncable="YES">
+        <attribute name="timeStamp" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Word" representedClassName="Word">
+        <attribute name="backGroundImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foreGroundImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="Word" positionX="261" positionY="189" width="128" height="105"/>
+        <element name="Result" positionX="160" positionY="192" width="128" height="60"/>
+    </elements>
+</model>
